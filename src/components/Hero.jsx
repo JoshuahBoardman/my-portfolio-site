@@ -30,12 +30,12 @@ const Hero = () => {
         <Row className="justify-content-end">
           <Col md={6}>
             <h1 className="display-1 fw-bold">
-              Creating <span className="text-danger">fluid</span> user experiences
+              Creating <span className="text-primary">fluid</span> user experiences
             </h1>
-            <p className="fs-4 mt-4">
+            <p className="fs-3 lead mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <Button variant="danger" size="lg" className="mt-4">View portfolio</Button>
+            <Button variant="primary" size="lg" className="mt-4 text-light">View portfolio</Button>
             <div className="mt-4 d-flex gap-2">
               <FontAwesomeIcon icon={faLinkedin} className="fs-1" />
               <FontAwesomeIcon icon={faGithubSquare} className="fs-1" />
