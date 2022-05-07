@@ -12,6 +12,7 @@ import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 // assets
 import background from "../assets/background.jpg";
+import Header from "./Header";
 
 const Hero = () => {
   return (
@@ -24,10 +25,10 @@ const Hero = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="d-flex align-items-center"
     >
-      <Container className>
-        <Row className="justify-content-end">
+    <Header />
+      <Container>
+        <Row className="justify-content-end align-items-center" style={{height: "100vh"}}>
           <Col md={6}>
             <h1 className="display-1 fw-bold">
               Creating <span className="text-primary">fluid</span> user experiences
