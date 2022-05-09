@@ -39,7 +39,7 @@ const About = () => {
               veniam maiores repellendus ducimus.
             </p>
             <h3 className="fs-3 text-primary mb-4">Skills</h3>
-            <div className="d-flex gap-3">
+            <div className="d-flex gap-4">
               <FontAwesomeIcon icon={faCss3Alt} className="text-light fs-1" />
               <FontAwesomeIcon icon={faHtml5} className="text-light fs-1" />
               <FontAwesomeIcon icon={faJsSquare} className="text-light fs-1" />
