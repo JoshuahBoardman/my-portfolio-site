@@ -6,8 +6,9 @@
 
  const PortfolioCard = ({ image, title, text, siteLink, repoLink}) => {
    return (
-    <Card className="shadow-sm" style={{ width: '20em' }}>
-    <Card.Img variant=" " src={image} />
+    <Card className="shadow-sm rounded" style={{ width: '20em' }}>
+    {/* TODO: Give the cards a tint of the hightlight color */}
+    <Card.Img variant=" " src={image} className=" rounded-top"/>
     <Card.Body>
       <Card.Title>{title}</Card.Title>
       <Card.Text>

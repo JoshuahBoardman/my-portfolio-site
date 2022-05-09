@@ -1,10 +1,14 @@
 import React from "react";
 
+// components
+import Header from "./Header";
+
 // react-bootstrap components
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+
 
 // font awesome components
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,7 +16,7 @@ import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 
 // assets
 import background from "../assets/background.jpg";
-import Header from "./Header";
+
 
 const Hero = () => {
   return (
@@ -36,7 +40,7 @@ const Hero = () => {
             <p className="fs-3 lead mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <Button variant="primary" size="lg" className="mt-4 text-light">View portfolio</Button>
+            <Button variant="primary" size="lg" className="mt-4 text-light">View Resume</Button>
             <div className="mt-4 d-flex gap-2">
               <FontAwesomeIcon icon={faLinkedin} className="fs-1" />
               <FontAwesomeIcon icon={faGithubSquare} className="fs-1" />

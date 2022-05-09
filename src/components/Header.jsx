@@ -11,7 +11,7 @@ const Header = () => {
     <Navbar variant="light" expand="sm" className="">
       <Container>
         <Navbar.Brand href="#home">
-          <div className="rounded-circle bg-primary fs-3 fw-bold text-dark d-flex justify-content-center align-items-center" style={{width: "3rem", height: "3rem"}}>JB</div>
+          <div className="rounded bg-primary fs-3 fw-bold text-dark d-flex justify-content-center align-items-center" style={{width: "3rem", height: "3rem"}}>JB</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

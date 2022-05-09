@@ -14,8 +14,12 @@ import PortfolioCard from "./PortfolioCard";
 const Portfolio = () => {
   // TODO: May move the Cols into the PortfolioCard component
   return (
-    <div className="bg-light" style={{ width: "100vw" }}>
-      <div className="d-flex justify-content-center bg-primary py-5 mb-4" style={{ width: "100vw" }}>
+    <div className="bg-light pb-5" style={{ width: "100vw" }}>
+      {/* TODO: Maybe make this a curvy box instead of being straight across */}
+      <div
+        className="d-flex justify-content-center bg-primary py-5 mb-4"
+        style={{ width: "100vw" }}
+      >
         <h2 className="text-light h1">Portfolio Projects</h2>
       </div>
       <Container className="">
