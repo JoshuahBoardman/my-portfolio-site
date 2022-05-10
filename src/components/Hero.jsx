@@ -18,14 +18,15 @@ import background from "../assets/background.jpg";
 
 const Hero = () => {
   return (
-    <div
+    <section
+      id="home"
       style={{
         backgroundImage: `url(${background}
         )`,
         height: "100vh",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
       }}
     >
       <Header />
@@ -67,7 +68,7 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

@@ -30,7 +30,7 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <div className="py-5 bg-light" style={{ width: "100vw" }}>
+    <section id="contact" className="py-5 bg-light" style={{ width: "100vw" }}>
       <Container>
         <Row className="justify-content-center">
           <Col lg={7}>
@@ -71,7 +71,7 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

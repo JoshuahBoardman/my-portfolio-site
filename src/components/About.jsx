@@ -20,7 +20,7 @@ import myPhoto from "../assets/myPhoto.jpg";
 
 const About = () => {
   return (
-    <div className="bg-dark py-5" style={{ width: "100vw" }}>
+    <section id="about" className="bg-dark py-5" style={{ width: "100vw" }}>
       <Container>
         <Row>
           <Col lg={6} className="mb-5">
@@ -55,7 +55,7 @@ const About = () => {
           </Col>
         </Row>
       </Container>
-    </div>
+    </section>
   );
 };
 

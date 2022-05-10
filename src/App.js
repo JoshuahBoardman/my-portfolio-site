@@ -9,12 +9,17 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div style={{overflow: "hidden" }}>
-    <Hero />
-    <Portfolio />
-    <About />
-    <Contact />
-    <Footer />
+    <div
+      data-bs-spy="scroll"
+      data-bs-target=".navbar"
+      data-bs-offset="50"
+      style={{ overflow: "hidden" }}
+    >
+      <Hero />
+      <Portfolio />
+      <About />
+      <Contact />
+      <Footer />
     </div>
   );
 }
