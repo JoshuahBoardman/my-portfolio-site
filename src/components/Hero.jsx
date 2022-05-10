@@ -25,7 +25,7 @@ const Hero = () => {
         height: "100vh",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
+        backgroundSize: "cover"
       }}
     >
       <Header />

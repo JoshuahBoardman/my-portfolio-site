@@ -9,13 +9,13 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div style={{overflow: "hidden" }}>
     <Hero />
     <Portfolio />
     <About />
     <Contact />
     <Footer />
-    </>
+    </div>
   );
 }
 

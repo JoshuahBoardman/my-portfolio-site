@@ -12,7 +12,15 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm("service_u86wcwn", "template_81xtb2o", e.target, "Thw5mFEamw7Eln7mq").then((result) => {
+    emailjs
+      .sendForm(
+        "service_u86wcwn",
+        "template_81xtb2o",
+        e.target,
+        "Thw5mFEamw7Eln7mq"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
         },
         (error) => {
@@ -23,7 +31,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="p-5 bg-light" style={{ width: "100vw" }}>
+    <div className="py-5 bg-light" style={{ width: "100vw"}}>
       <Container>
         <Row className="justify-content-center">
           <Col lg={7}>
