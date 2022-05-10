@@ -10,6 +10,10 @@ import animeInsight from "../assets/animeInsight.PNG";
 import flashCard from "../assets/flashCard.PNG";
 import typeRegatta from "../assets/typeRegatta.PNG";
 import colorPicker from "../assets/colorPicker.PNG";
+import wordleClone from "../assets/wordleClone.PNG";
+import cryptoInvaders from "../assets/cryptoInvaders.PNG";
+import snakeClone from "../assets/snakeClone.PNG";
+import pokemonRandomizer from "../assets/pokemonRandomizer.PNG";
 
 // components
 import PortfolioCard from "./PortfolioCard";
@@ -109,8 +113,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={wordleClone }
+              title={"Wordle Clone"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
@@ -123,8 +127,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={cryptoInvaders}
+              title={"Crypto Invaders"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
@@ -137,8 +141,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={snakeClone}
+              title={"Snake Clone"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
@@ -151,8 +155,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={pokemonRandomizer}
+              title={"Pokemon Team Randomizer"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
