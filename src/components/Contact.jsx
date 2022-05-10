@@ -29,9 +29,8 @@ const Contact = () => {
       );
     e.target.reset();
   }
-
   return (
-    <div className="py-5 bg-light" style={{ width: "100vw"}}>
+    <div className="py-5 bg-light" style={{ width: "100vw" }}>
       <Container>
         <Row className="justify-content-center">
           <Col lg={7}>
@@ -49,7 +48,6 @@ const Contact = () => {
                   name="name"
                 />
               </Form.Group>
-
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control

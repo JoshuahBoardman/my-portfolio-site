@@ -7,6 +7,9 @@ import Col from "react-bootstrap/Col";
 
 // assets
 import animeInsight from "../assets/animeInsight.PNG";
+import flashCard from "../assets/flashCard.PNG";
+import typeRegatta from "../assets/typeRegatta.PNG";
+import colorPicker from "../assets/colorPicker.PNG";
 
 // components
 import PortfolioCard from "./PortfolioCard";
@@ -55,8 +58,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={flashCard}
+              title={"Flashcard App"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
@@ -69,8 +72,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={typeRegatta}
+              title={"Type Regattat"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
@@ -83,8 +86,8 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={animeInsight}
-              title={"Anime Insight"}
+              image={colorPicker}
+              title={"Color Picker"}
               text={
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
               }
