@@ -51,7 +51,7 @@ const Portfolio = () => {
               image={animeInsight}
               title={"Anime Insight"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/Anime-Insight-App"}
             />
@@ -66,7 +66,7 @@ const Portfolio = () => {
               image={flashCard}
               title={"Flashcard App"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/flash-card-app"}
             />
@@ -81,7 +81,7 @@ const Portfolio = () => {
               image={typeRegatta}
               title={"Type Regattat"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/type-regatta"}
             />
@@ -96,7 +96,7 @@ const Portfolio = () => {
               image={colorPicker}
               title={"Color Picker"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/color-picker-app"}
             />
@@ -120,7 +120,7 @@ const Portfolio = () => {
               image={wordleClone }
               title={"Wordle Clone"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Wordle-Clone"}
             />
@@ -135,7 +135,7 @@ const Portfolio = () => {
               image={cryptoInvaders}
               title={"Crypto Invaders"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Space-Invaders"}
             />
@@ -150,7 +150,7 @@ const Portfolio = () => {
               image={snakeClone}
               title={"Snake Clone"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet.vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Snake-Game"}
             />
@@ -165,7 +165,7 @@ const Portfolio = () => {
               image={pokemonRandomizer}
               title={"Pokemon Team Randomizer"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu tempus turpis, nec pellentesque mi."
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
               }
               repoLink={"https://github.com/JoshuahBoardman/Pokemon-Team-Randomizer"}
             />
