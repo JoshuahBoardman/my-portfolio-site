@@ -4,13 +4,14 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-const PortfolioCard = ({ image, title, text, siteLink, repoLink }) => {
+const PortfolioCard = ({ image, title, text, siteLink, repoLink, altText }) => {
   return (
     <Card className="shadow-sm rounded" style={{ width: "20em" }}>
       {/* TODO: Give the cards a tint of the hightlight color */}
       <Card.Img
-        variant=" "
+        variant="top"
         src={image}
+        alt={altText}
         className=" rounded-top"
         style={{ width: "100%", height: "15rem", objectFit: "cover" }}
       />
