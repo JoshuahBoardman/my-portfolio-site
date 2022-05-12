@@ -23,19 +23,19 @@ const Hero = () => {
       style={{
         backgroundImage: `url(${background}
         )`,
-        height: "100vh",
+        minHeight: "100vh",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
     >
       <Header />
-      <Container>
+      <Container >
         <Row
           className="justify-content-end align-items-center"
-          style={{ height: "100vh" }}
+          style={{ minHeight: "100vh" }}
         >
-          <Col md={6}>
+          <Col md={6} className="d-flex flex-column text-center text-md-start align-items-center align-items-md-start">
             <h1 className="display-1 fw-bold">
               Creating <span className="text-primary">fluid</span> user
               experiences
@@ -46,7 +46,7 @@ const Hero = () => {
             <Button variant="primary" size="lg" className="mt-4 text-light">
               View Resume
             </Button>
-            <div className="mt-4 d-flex gap-2">
+            <div className="mt-4 d-flex gap-2 ">
               <a href="https://www.linkedin.com/in/joshuahboardman/">
                 {" "}
                 <FontAwesomeIcon
