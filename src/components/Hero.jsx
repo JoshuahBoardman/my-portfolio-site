@@ -43,7 +43,7 @@ const Hero = () => {
             <p className="fs-3 lead mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
-            <Button variant="primary" size="lg" className="mt-4 text-light">
+            <Button href="https://docs.google.com/document/d/1gzXUX7FqIarPtPEw1BUg5FcNpL3kSs-b9rp_8zWAI7k/edit?usp=sharing" variant="primary" size="lg" className="mt-4 text-light">
               View Resume
             </Button>
             <div className="mt-4 d-flex gap-2 ">
