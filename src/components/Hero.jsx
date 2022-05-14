@@ -41,7 +41,7 @@ const Hero = () => {
               experiences
             </h1>
             <p className="fs-3 lead mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Using modern web development techiques
             </p>
             <Button href="https://docs.google.com/document/d/1gzXUX7FqIarPtPEw1BUg5FcNpL3kSs-b9rp_8zWAI7k/edit?usp=sharing" variant="primary" size="lg" className="mt-4 text-light">
               View Resume

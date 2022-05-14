@@ -21,7 +21,11 @@ import PortfolioCard from "./PortfolioCard";
 const Portfolio = () => {
   // TODO: May move the Cols into the PortfolioCard component
   return (
-    <section id="portfolio" className="bg-light pb-5" style={{ width: "100vw" }}>
+    <section
+      id="portfolio"
+      className="bg-light pb-5"
+      style={{ width: "100vw" }}
+    >
       {/* TODO: Maybe make this a curvy box instead of being straight across */}
       <div
         className="d-flex justify-content-center bg-primary py-5 mb-4"
@@ -51,7 +55,7 @@ const Portfolio = () => {
               image={animeInsight}
               title={"Anime Insight"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "An app that provides users anime recommendations based on genre."
               }
               repoLink={"https://github.com/JoshuahBoardman/Anime-Insight-App"}
               altText={"Anime Insight"}
@@ -67,7 +71,7 @@ const Portfolio = () => {
               image={flashCard}
               title={"Flashcard App"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "An app that allows users to create collections of flashcards to study off and quiz themselves."
               }
               repoLink={"https://github.com/JoshuahBoardman/flash-card-app"}
               altText={"Flashcard App"}
@@ -83,7 +87,7 @@ const Portfolio = () => {
               image={typeRegatta}
               title={"Type Regattat"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "An app that gives users the chance to test their typing skills against the clock and find out their WPM."
               }
               repoLink={"https://github.com/JoshuahBoardman/type-regatta"}
               altText={"Type Regattat"}
@@ -98,9 +102,7 @@ const Portfolio = () => {
             <PortfolioCard
               image={colorPicker}
               title={"Color Picker"}
-              text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
-              }
+              text={"An app that helps users to build color pallets."}
               repoLink={"https://github.com/JoshuahBoardman/color-picker-app"}
               altText={"Color Picker"}
             />
@@ -121,10 +123,10 @@ const Portfolio = () => {
             className="mb-5 d-flex justify-content-center"
           >
             <PortfolioCard
-              image={wordleClone }
+              image={wordleClone}
               title={"Wordle Clone"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "A clone of the popular Wordle app, you have five tries to guess a five-letter word."
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Wordle-Clone"}
               altText={"Wordle Clone"}
@@ -140,7 +142,7 @@ const Portfolio = () => {
               image={cryptoInvaders}
               title={"Crypto Invaders"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "My take on the 70s game Space Invaders; destroy all the invaders before they reach the player. "
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Space-Invaders"}
               altText={"Crypto Invaders"}
@@ -156,7 +158,7 @@ const Portfolio = () => {
               image={snakeClone}
               title={"Snake Clone"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet.vitae tincidunt tellus commodo sit amet."
+                "My take on the 90s game Snake; direct the snake to eat as much food as possible without running into the walls or snake's body."
               }
               repoLink={"https://github.com/JoshuahBoardman/My-Snake-Game"}
               altText={"Snake Clone"}
@@ -172,9 +174,11 @@ const Portfolio = () => {
               image={pokemonRandomizer}
               title={"Pokemon Team Randomizer"}
               text={
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam egestas dui purus, vitae tincidunt tellus commodo sit amet."
+                "An app that randomly generates a Pokemon team (for any pokemon game in the series) for users to use in the game."
               }
-              repoLink={"https://github.com/JoshuahBoardman/Pokemon-Team-Randomizer"}
+              repoLink={
+                "https://github.com/JoshuahBoardman/Pokemon-Team-Randomizer"
+              }
               altText={"Pokemon Team Randomizer"}
             />
           </Col>

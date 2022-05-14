@@ -26,17 +26,10 @@ const About = () => {
           <Col lg={6} className="mb-5">
             <h2 className="text-primary display-3 mb-4">About Me</h2>
             <p className="text-light lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
-              excepturi officia odio quaerat eveniet magnam perspiciatis amet
-              doloremque aperiam, totam numquam laborum, cupiditate nostrum
-              adipisci accusamus nesciunt quisquam quibusdam temporibus, sed
-              alias? Ex saepe necessitatibus, molestias earum sapiente culpa
-              exercitationem?
+            I'm passionate about computer information technology—especially programming and creating innovative software. Initially, I got into programming for developing games; however, after learning to program in C#, I realized that I had a passion for creating code to solve real problems for real-world applications. Since then, I have developed a good understanding of front-end web development.
             </p>
             <p className="text-light lead mb-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis, saepe ex! Itaque tempore voluptate illum perferendis
-              veniam maiores repellendus ducimus.
+            Software development is full of captivating challenges; I am confident in my ability to rapidly learn what is needed to get the job done—on target and on time.
             </p>
             <h3 className="fs-3 text-primary mb-4">Skills</h3>
             <div className="d-flex gap-4">
