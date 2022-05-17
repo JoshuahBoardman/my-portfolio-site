@@ -57,6 +57,7 @@ const Portfolio = () => {
               text={
                 "An app that provides users anime recommendations based on genre."
               }
+              siteLink={"https://deluxe-sorbet-7d57f2.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/Anime-Insight-App"}
               altText={"Anime Insight"}
             />
@@ -73,6 +74,7 @@ const Portfolio = () => {
               text={
                 "An app that allows users to create collections of flashcards to study off and quiz themselves."
               }
+              siteLink={"https://beamish-hotteok-3d5c44.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/flash-card-app"}
               altText={"Flashcard App"}
             />
@@ -89,6 +91,7 @@ const Portfolio = () => {
               text={
                 "An app that gives users the chance to test their typing skills against the clock and find out their WPM."
               }
+              siteLink={"https://steady-bubblegum-d42899.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/type-regatta"}
               altText={"Type Regattat"}
             />
@@ -103,6 +106,7 @@ const Portfolio = () => {
               image={colorPicker}
               title={"Color Picker"}
               text={"An app that helps users to build color pallets."}
+              siteLink={"https://classy-druid-a46b61.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/color-picker-app"}
               altText={"Color Picker"}
             />
@@ -128,6 +132,7 @@ const Portfolio = () => {
               text={
                 "A clone of the popular Wordle app, you have five tries to guess a five-letter word."
               }
+              siteLink={"https://euphonious-salamander-948d54.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/My-Wordle-Clone"}
               altText={"Wordle Clone"}
             />
@@ -144,6 +149,7 @@ const Portfolio = () => {
               text={
                 "My take on the 70s game Space Invaders; destroy all the invaders before they reach the player. "
               }
+              siteLink={"https://leafy-gingersnap-f92bd9.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/My-Space-Invaders"}
               altText={"Crypto Invaders"}
             />
@@ -160,6 +166,7 @@ const Portfolio = () => {
               text={
                 "My take on the 90s game Snake; direct the snake to eat as much food as possible without running into the walls or snake's body."
               }
+              siteLink={"https://scintillating-sprite-b0bdf3.netlify.app"}
               repoLink={"https://github.com/JoshuahBoardman/My-Snake-Game"}
               altText={"Snake Clone"}
             />
@@ -176,6 +183,7 @@ const Portfolio = () => {
               text={
                 "An app that randomly generates a Pokemon team (for any pokemon game in the series) for users to use in the game."
               }
+              siteLink={"https://dynamic-praline-d519b4.netlify.app"}
               repoLink={
                 "https://github.com/JoshuahBoardman/Pokemon-Team-Randomizer"
               }
